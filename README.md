@@ -8,18 +8,19 @@ Identify missing values using isnull() or info() method.
 Fill missing values using fillna() with a specific value or method (e.g., mean, median, forward fill, or backward fill).
 Drop rows or columns with missing values using dropna().
 
-    #### [df['column_name'].fillna(df['column_name'].mean(), inplace=True)]
+       [df['column_name'].fillna(df['column_name'].mean(), inplace=True)]
 
 ### 2.Removing Duplicates:
 
 Identify and remove duplicate rows using duplicated() and drop_duplicates().
 
-      #### [df.drop_duplicates(subset='column_name', keep='first', inplace=True)]
+         [df.drop_duplicates(subset='column_name', keep='first', inplace=True)]
+         
 ### 3.Correcting Data Types:
 
 Convert data types using astype() or pd.to_numeric(), pd.to_datetime(), etc.
 
-      #### [df['numeric_column'] = pd.to_numeric(df['numeric_column'], errors='coerce')]
+         [df['numeric_column'] = pd.to_numeric(df['numeric_column'], errors='coerce')]
 
 ### 4.Handling Outliers:
 
@@ -33,4 +34,4 @@ Remove unnecessary spaces, convert text to lowercase, and handle special charact
 
 Standardize or correct inconsistent data entries.
 
-#### [df['column_name'].replace({'incorrect_value': 'correct_value'}, inplace=True)]
+            [df['column_name'].replace({'incorrect_value': 'correct_value'}, inplace=True)]
