@@ -27,4 +27,5 @@ Remove unnecessary spaces, convert text to lowercase, and handle special charact
 ### 6.Handling Inconsistent Data:
 
 Standardize or correct inconsistent data entries.
-[df['column_name'].replace({'incorrect_value': 'correct_value'}, inplace=True)]
+
+## [df['column_name'].replace({'incorrect_value': 'correct_value'}, inplace=True)]
