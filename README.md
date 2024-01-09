@@ -28,4 +28,4 @@ Remove unnecessary spaces, convert text to lowercase, and handle special charact
 
 Standardize or correct inconsistent data entries.
 
-## [df['column_name'].replace({'incorrect_value': 'correct_value'}, inplace=True)]
+#### [df['column_name'].replace({'incorrect_value': 'correct_value'}, inplace=True)]
